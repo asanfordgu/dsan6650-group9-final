@@ -1,0 +1,56 @@
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.log
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+
+# Ignore heavy raw + full datasets
+data/1_raw/
+data/2_full_dataset/
+
+# Keep cleaned and transformed data
+!data/3_clean_dataset/**
+!data/4_transformed_dataset/**
+
+# data/3_clean_dataset/*.parquet
+
+
+# Common SUMO output & logs
+**/sumo_output/
+**/sim_output/
+**/reports/
+**/logs/
+
+# (Net/route/additional files you generate temporarily)
+*.fcd.xml
+*.trip.xml
+*.dump
+*.output.xml
+
+
+# VS Code / PyCharm
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Temporary / backup files
+*.bak
+*.tmp
+*.old
+*~
