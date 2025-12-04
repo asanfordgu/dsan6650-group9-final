@@ -31,3 +31,8 @@ data/2_full_dataset/
 *.tmp
 *.old
 *~
+code/network.net.xml
+code/sumo_simulation/SanFrancisco.osm
+data/1_raw_data/Fire_Department_and_Emergency_Medical_Services_Dispatched_Calls_for_Service.csv
+code/sumo_simulation/network.net.xml
+src/Fire_Department_and_Emergency_Medical_Services_Dispatched_Calls_for_Service.csv
